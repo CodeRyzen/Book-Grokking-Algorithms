@@ -1,0 +1,24 @@
+Binary search is an efficient algorithm for searching for an element in a sorted array. It runs in logarithmic time O(log n), successively reducing the search space by half.
+
+How it works:
+1. At each step:
+    1. The middle of the current range is selected.
+    2. The search element is compared with the element in the middle.
+2. If the element is found, its index is returned.
+3. If the search element is smaller, the search continues in the left half of the array.
+4. If it is larger, then in the right.
+
+Advantages:
+1. Faster than linear search (O(n)).
+2. Efficient for large arrays.
+
+Limitations:
+1. Requires a sorted array.
+2. Not suitable for dynamic or unsorted data without prior sorting.
+
+Big O (big O) is a notation used in mathematics and computer science to describe the asymptotic behavior of functions. It helps to estimate how fast a function grows as the input data increases, ignoring constants and insignificant terms.
+Main idea:
+Big O shows the upper bound on the growth of a function, helping to estimate the efficiency of algorithms and their behavior on large amounts of data.
+Definition:
+If f(n) and g(n) are functions, then f(n)∈O(g(n)) if there exists a constant C>0 and n0 such that for all n≥n0 the following holds:
+∣f(n)∣≤C⋅∣g(n)∣
